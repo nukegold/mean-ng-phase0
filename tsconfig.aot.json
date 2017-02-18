@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": true,
+    "noImplicitAny": false,
+    "outDir": "./public/js/app"
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "assets/app/polyfills.ts",
+    "assets/app/main.ts"
+  ],
+
+  "angularCompilerOptions": {
+    "skipMetadataEmit": true
+  }
+}
