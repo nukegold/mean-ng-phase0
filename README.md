@@ -13,7 +13,7 @@ Simple Angular components test include an eager component (i.e. embedded in the 
 and a lazy component (loaded in a separate chunk and called on demand).
 
 ## Install
-Make sure you have Node.JS and npm installed. \
+Make sure you have Node.JS and npm installed. 
 Copy the project files and change directory to the project location.
 
 ```
@@ -21,7 +21,7 @@ npm install
 ```
 
 ## Development 
-Server build in watch mode. \
+Server build in watch mode. 
 Browse to localhost:3000 to test.
 ```
 npm run build
