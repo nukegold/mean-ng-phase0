@@ -37,6 +37,7 @@ Start for local testing of the production bundle.
 npm run build:prod
 npm start
 ```
+Browse to http://localhost:3000
 
 ## License
 Released under the [MIT license](http://www.opensource.org/licenses/MIT).
