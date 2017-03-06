@@ -1,5 +1,3 @@
-const ngToolsWebpack = require('@ngtools/webpack');
-
 var webpack = require('webpack');
 
 var webpackMerge = require('webpack-merge');
@@ -16,14 +14,6 @@ module.exports = webpackMerge.smart(commonConfig, {
     },
 
     plugins: [
-        new ngToolsWebpack.AotPlugin({
-            tsConfigPath: './tsconfig.aot.json',
-            entryModule: __dirname + '/assets/app/app.module#AppModule'
-        }),
-        new webpack.LoaderOptionsPlugin({
-            minimize: true,
-            debug: false
-        }),
         new webpack.optimize.UglifyJsPlugin({
             compress: {
                 warnings: false
@@ -31,14 +21,18 @@ module.exports = webpackMerge.smart(commonConfig, {
             output: {
                 comments: false
             },
-            sourceMap: true
+            sourceMap: false
         })
     ],
 
     module: {
         loaders: [{
             test: /\.ts$/,
-            loader: '@ngtools/webpack'
+            loaders: [
+                'awesome-typescript-loader',
+                'angular2-template-loader',
+                'angular-router-loader?aot=true&genDir=public/js/app'
+            ]
         }]
     }
 });
