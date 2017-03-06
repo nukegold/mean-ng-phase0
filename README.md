@@ -16,8 +16,7 @@ and a lazy component (loaded in a separate chunk and called on demand).
 An online post describes this project:
 
 #### Part 1:
-https://medium.com/@nukegold/a-mean-full-stack-machine-part-1-bd7c41387497#.h5n2ic2vd\
-\
+https://medium.com/@nukegold/a-mean-full-stack-machine-part-1-bd7c41387497#.h5n2ic2vd
 #### Part 2:
 https://medium.com/@nukegold/a-mean-full-stack-machine-part-2-586ee92b4bcf#.kxar12onx
 
