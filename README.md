@@ -2,8 +2,8 @@ mean-ng-phase0.js
 
 https://github.com/nukegold/mean-ng-phase0
 
-Feb 18, 2017 - First version\
-March 6, 2017 - Updated all modules to latest version (Angular 2.4.9) + fixed webpack production settings
+Feb 18, 2017 - First version  
+March 6, 2017 - Updated all modules to latest version (Angular 2.4.9) + fixed webpack production settings  
 
 # MEAN-NG Phase 0
 Sharing my progress as I develop a MEAN 2 stack framework. 
