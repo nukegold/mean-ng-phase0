@@ -3,10 +3,11 @@ mean-ng-phase0.js
 https://github.com/nukegold/mean-ng-phase0
 
 Feb 18, 2017 - First version
+March 6, 2017 - Updated all modules to latest version (Angular 2.4.9) + fixed webpack production settings
 
 # MEAN-NG Phase 0
 Sharing my progress as I develop a MEAN 2 stack framework. 
-MEAN Stack 2 using Angular version 2.4.7, webpack 2, Express (no MongoDB yet in this phase).
+MEAN Stack 2 using Angular version 2.4.9, webpack 2, Express (no MongoDB yet in this phase).
 
 Includes a development and production AoT build using webpack version 2.
 Simple Angular components test include an eager component (i.e. embedded in the bundle), 
